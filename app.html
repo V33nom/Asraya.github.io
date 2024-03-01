@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+  <!-- Your other stylesheets or CSS links can go here -->
+</head>
+<body>
+  <!-- Your HTML content will go here -->
+
+  <!-- Swiper HTML -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <!-- Add more slides as needed -->
+    </div>
+    
+    <!-- If you need pagination (dots), uncomment the following line: -->
+    <!-- <div class="swiper-pagination"></div> -->
+    
+    <!-- If you need navigation arrows, uncomment the following lines: -->
+    <!-- <div class="swiper-button-next"></div> -->
+    <!-- <div class="swiper-button-prev"></div> -->
+    
+    <!-- If you need scrollbar, uncomment the following line: -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+  <!-- Swiper JS -->
+ 
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      loop: true,
+      autoplay: {
+        delay: 2000,
+         // Time between each slide in milliseconds (adjust as needed)
+      },
+      // If you need pagination (dots), uncomment the following lines:
+      // pagination: {
+      //   el: '.swiper-pagination',
+      // },
+      
+      // If you need navigation arrows, uncomment the following lines:
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
+      
+      // If you need scrollbar, uncomment the following lines:
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+    });
+  </script>
+</body>
+</html>

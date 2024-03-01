@@ -1,0 +1,239 @@
+/* Style.css */
+
+* { 
+	font-family: Georgia, Times, "Times New Roman", serif; 
+} 
+
+body{
+	
+	
+}
+
+.quiz, 
+.scores { 
+	margin: 50px auto 0 auto; 
+	max-width: 400px; 
+} 
+
+#top { 
+	color: black; 
+} 
+
+.containerNew { 
+	
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	height: 580px; 
+	width: 50%; 
+	transform: translate(-50%, -50%); 
+	padding: 10px; 
+} 
+
+p { 
+	margin: 15px 15px; 
+} 
+
+.landing { 
+	text-align: center; 
+} 
+
+.scoresHeader { 
+	position: absolute; 
+	bottom: 15px; 
+	right: 15px; 
+} 
+
+.timer { 
+	position: absolute; 
+	top: 15px; 
+	right: 15px; 
+} 
+
+button { 
+	display: inline-block; 
+	margin: 10px; 
+	cursor: pointer; 
+	color: #fff; 
+	background-color:black; 
+	border-radius: 5px; 
+	border: 0; 
+	padding: 20px; 
+} 
+
+button:hover { 
+	background-color: rgb(67, 53, 133); 
+} 
+
+.options button { 
+	display: block; 
+} 
+
+input[type="text"] { 
+	font-size: 100%; 
+} 
+
+.hide { 
+	display: none; 
+} 
+
+.feedback { 
+	font-style: bold; 
+	font-size: 120%; 
+	margin-top: 20px; 
+	padding-top: 15px; 
+	color: #fff; 
+	border-top: 2px solid #4B0082; 
+} 
+
+ol { 
+	padding-left: 15px; 
+	max-height: 600px; 
+	overflow: auto; 
+} 
+
+li { 
+	padding: 5px; 
+	list-style: decimal inside none; 
+} 
+
+li:nth-child(odd) { 
+	background-color: #dfdae7; 
+} 
+
+@media screen and (max-width: 850px) { 
+	.containerNew { 
+		width: 100%; 
+	} 
+
+	button { 
+		display: inline-block; 
+		margin: 10px; 
+		cursor: pointer; 
+		color: #fff; 
+		background-color:black; 
+		border-radius: 5px; 
+		border: 0; 
+		padding: 20px; 
+	
+	} 
+	
+	button:hover { 
+		background-color: rgb(67, 53, 133); 
+	} 
+
+	.scores-Header{
+		position: relative; 
+		bottom: 15px; 
+		right: 300px; 
+	}
+} 
+
+@media screen and (max-width: 575px) { 
+	.containerNew { 
+		width: 90%; 
+	} 
+
+	.quiz, 
+	.scores { 
+		max-width: 90%; 
+	} 
+
+
+
+}
+
+.saitama{
+	width: 20%;
+	aspect-ratio: 2/3;
+	position: absolute;
+	bottom: 350px;
+    right: -20px;
+	align-items: center;
+	aspect-ratio: 2/2;
+	mix-blend-mode:color-dodge;
+}
+
+.naruto{
+	width: auto;
+	height: 30%;
+	position: absolute;
+	bottom: 15px;
+	right: -20px;
+}
+
+.quiz-banner{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	bottom: 390px;
+	left: -270px;
+}
+
+.gojo{
+	width: auto;
+	height: auto;
+	position: absolute;
+	bottom: 15px;
+	left: -60px;
+}
+
+.anya{
+	width: auto;
+	height: 30%;
+	position: absolute;
+	bottom: 30px;
+	left: 100px;
+}
+
+.special1{
+	width: 40%;
+	aspect-ratio: 2/4;
+	position: absolute;
+	bottom: 15px;
+	left: -330px;
+	mix-blend-mode: color-burn;
+}
+
+.special2{
+	width: 40%;
+	aspect-ratio: 2/4;
+	position: absolute;
+	bottom: 15px;
+	right: -330px;
+	mix-blend-mode: color-burn;
+}
+
+.toji{
+	width: auto;
+	height: auto;
+	position: absolute;
+	bottom: 15px;
+	right: -250px;
+}
+
+
+.gojo1{
+	width: auto;
+	height: auto;
+	position: absolute;
+	bottom: 15px;
+	right: -70px;
+}
+
+.anya1{
+	width: auto;
+	height: 30%;
+	position: absolute;
+	bottom: 30px;
+	left: -150px;
+}
+
+.rs{
+	width: auto;
+	height: auto;
+	position: fixed;
+	bottom: 200px;
+	right: -70px;
+}
+

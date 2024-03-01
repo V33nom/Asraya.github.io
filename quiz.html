@@ -1,0 +1,103 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0" /> 
+	<link rel="stylesheet"
+		href="quiz.css" /> 
+	<title>anime Quiz</title> 
+</head> 
+
+<body> 
+	<div class="containerNew"> 
+		<header> 
+			<div> 
+				<a href="highscore.html"> 
+					<button class="scores-header"
+							id="view-high-scores"> 
+						View High Scores 
+					</button> 
+				</a> 
+			</div> 
+			
+
+			<div class="timer"> 
+				<p> 
+					Time: 
+					<span id="timer"> 
+						0 
+					</span> 
+				</p> 
+			</div> 
+		</header> 
+
+		<main class="quiz"> 
+			<div id="quiz-start"> 
+				<div class="landing"
+					id="start-screen"> 
+					<img src="saitama2.jfif" alt="" class="saitama">
+					<img src="quiz2.png" alt="" class="quiz-banner">
+					<img src="download (1).jfif" alt="" class="naruto">
+					<img src="gojo.jfif" alt="" class="gojo">
+					<img src="anya2.jfif" alt="" class="anya">
+					
+					<img src="rs.jfif" alt="" class="special2">
+					<h1 id="top"> 
+						waku waku
+					</h1> 
+					<h1> 
+						anime quiz
+					</h1> 
+					<p> Anime quiz for all anime lovers
+						test your anime knowledge!
+					</p> 
+					<button id="start"> 
+						Start Quiz 
+					</button> 
+					
+				</div> 
+			</div> 
+			<div class="hide" id="questions"> 
+				<h2 id="question-words"></h2>
+		        <img src="rs.jfif" alt="" class="rs">
+				<img src="gojo.jfif" alt="" class="gojo1">
+				<img src="anya2.jfif" alt="" class="anya1">
+				<img src="TOJI STABBBING.jfif" alt="" class="toji"> 
+				
+				<div class="options" id="options"> 
+				</div> 
+			</div> 
+
+			<div class="hide" id="quiz-end"> 
+				<h2>All Done!</h2> 
+				<p>Your final score is: 
+					<span id="score-final"> 
+					</span> 
+				</p> 
+				<p> 
+					Please enter your name: 
+					<input type="text"
+						id="name"
+						max="3" /> 
+					<button id="submit-score"> 
+						Submit 
+					</button> 
+
+				
+				</p> 
+			</div> 
+
+			<div id="feedback"
+				class="feedback hide"> 
+			</div> 
+		</main> 
+	</div> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
